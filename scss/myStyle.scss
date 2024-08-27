@@ -13,6 +13,7 @@
 @import './partial/separador';
 @import './partial/titulo';
 
-
+$bg-danger-subtle: rgb(0, 0, 0);
+$card-color: rgb(0, 169, 241);
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';

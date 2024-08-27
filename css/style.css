@@ -7,14 +7,14 @@
 .contenedor_titulo {
   width: 50%;
   margin: 80px auto;
-  color: #fff;
+  color: #FFF;
   padding: 10px 0;
   display: flex;
   flex-direction: column;
 }
 
 body {
-  background-color: rgb(239, 229, 215);
+  background-color: #FFF;
 }
 
 .go-top-btn {
@@ -25,8 +25,8 @@ body {
   cursor: pointer;
   height: 60px;
   width: 60px;
-  background: #fff;
-  border: 3px solid #333;
+  background: #FFF;
+  border: 3px solid rgb(0, 0, 0);
   display: none;
   justify-content: center;
   align-items: center;
@@ -62,19 +62,19 @@ nav .material-symbols-outlined {
   margin: 10px;
 }
 .redes .fa-brands a {
-  color: #000;
+  color: rgb(0, 0, 0);
   transition: all 1s;
 }
 .redes .fa-brands a:hover {
   scale: 1.5;
 }
 .redes .fa-brands a:visited {
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 
 .seccion_titulo {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2392156863);
+  background-color: rgb(0, 0, 0);
 }
 
 .separador {
@@ -4402,7 +4402,7 @@ textarea.form-control-lg {
   --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
   --bs-card-cap-color: ;
   --bs-card-height: ;
-  --bs-card-color: ;
+  --bs-card-color: rgb(0, 169, 241);
   --bs-card-bg: var(--bs-body-bg);
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
