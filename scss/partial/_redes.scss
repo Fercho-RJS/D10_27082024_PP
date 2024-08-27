@@ -1,0 +1,24 @@
+.redes{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  
+  .fa-brands{
+    margin: 10px;
+
+    a{
+      color: map-get($colores, "negro");
+      transition: all 1s;
+
+      &:hover
+      {
+        scale: 1.5;
+      }
+
+      &:visited
+      {
+        color: map-get($colores, "negro");
+      }
+    }
+  }
+}
