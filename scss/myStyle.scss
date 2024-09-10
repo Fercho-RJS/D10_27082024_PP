@@ -12,10 +12,9 @@
 @import './partial/seccion';
 @import './partial/separador';
 @import './partial/titulo';
-
 //actividad 5
-$bg-danger-subtle: rgb(0, 0, 0);
-$card-color: rgb(0, 169, 241);
-$card-bg: rgb(0,255,0);
+$bg-danger-subtle: rgba(0, 0, 0, 0.805);
+$card-color: rgb(61, 69, 72);
+$card-bg: rgba(62, 139, 62, 0.408);
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
